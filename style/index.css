@@ -1,1 +1,60 @@
 /* CSS stillerinizi buraya girin */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+header nav a{
+text-decoration:none;
+background-color:gray;
+padding: 10px 20px;
+border-radius: 5px;
+text-align: center;
+color: white;
+}
+
+main {
+background-image: url("https://picsum.photos/seed/picsum/700/500");
+width: 700px;
+height:500px;
+margin: auto auto;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+main div{               /*  hem yazı hem button var.neden main div button deyince çalışmadı?? */   
+   
+    text-align: center;
+}
+
+button{
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;                            /*  margin ve width i nasıl ayarlayacağız? */
+    margin: 5% auto;     
+    width: 750px;
+}
+  
+h3{
+    text-align: center;
+    }
+
+
+footer{
+    text-align: center;
+    background-color:bisque;
+    padding: 20px 5px;
+}
+footer button{
+    width:100px ;
+    height:50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
